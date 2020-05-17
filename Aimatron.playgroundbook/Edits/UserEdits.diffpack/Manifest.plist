@@ -32,6 +32,18 @@
 				<key>File</key>
 				<string>UserModules/UserModule.playgroundmodule/Sources/GameScene.swift</string>
 			</dict>
+			<dict>
+				<key>File</key>
+				<string>UserModules/UserModule.playgroundmodule/Sources/Player.swift</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>UserModules/UserModule.playgroundmodule/Sources/Arrow.swift</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>UserModules/UserModule.playgroundmodule/Sources/Target.swift</string>
+			</dict>
 		</array>
 		<key>Modified</key>
 		<array>
@@ -43,7 +55,12 @@
 			</dict>
 		</array>
 		<key>Removed</key>
-		<array/>
+		<array>
+			<dict>
+				<key>File</key>
+				<string>UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift</string>
+			</dict>
+		</array>
 		<key>Replaced</key>
 		<array/>
 	</dict>

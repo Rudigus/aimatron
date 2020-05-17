@@ -1,6 +1,7 @@
 
 import UIKit
 import SpriteKit
+import PlaygroundSupport
 
 public class GameViewController: UIViewController {
     override public func viewDidLoad() {
@@ -9,9 +10,9 @@ public class GameViewController: UIViewController {
     }
     
     func setup() {
-        let view = SKView()
-        let scene = GameScene()
-        scene.scaleMode = .resizeFill
+        let view = SKView(frame: .zero)
+        let scene = GameScene(size: CGSize(width: 800, height: 1130))
+        scene.scaleMode = .aspectFit
         view.presentScene(scene)
         self.view = view
     }

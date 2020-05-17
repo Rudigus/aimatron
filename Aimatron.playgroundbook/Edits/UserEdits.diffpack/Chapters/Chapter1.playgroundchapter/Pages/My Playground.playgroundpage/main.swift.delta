@@ -9,9 +9,12 @@
 			<string>import PlaygroundSupport
 
 PlaygroundPage.current.setLiveView(GameViewController())
+
+//Hello, and welcome to Aimatron! In this little puzzle game, your objective is to hit the target with an arrow,
+// using your observation skills. Good luck!
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 83}</string>
+			<string>{1, 242}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>
